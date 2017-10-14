@@ -1,3 +1,0 @@
-/Users/neil/CPPLondonUni/CLionProjects/Week2/Fizzbuzz2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/neil/CPPLondonUni/CLionProjects/Week2/Fizzbuzz2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/neil/CPPLondonUni/CLionProjects/Week2/Fizzbuzz2/cmake-build-debug/CMakeFiles/Fizzbuzz2.dir

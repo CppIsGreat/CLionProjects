@@ -13,7 +13,7 @@
 #include <iostream> // std::cout
 #include <vector>   // std::vector
 
- // Output vector of ints to the console on one line
+// Output vector of ints to the console on one line
 void OutputData(std::vector<int>& vectorData) {
     for (auto dataItem : vectorData)
     {
@@ -23,4 +23,3 @@ void OutputData(std::vector<int>& vectorData) {
     // Blank line
     std::cout << "\n";
 }
-

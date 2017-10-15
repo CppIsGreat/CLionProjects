@@ -9,7 +9,19 @@
 
 #include <vector>   // std::vector
 
- // Output vector of ints to the console
+// Dump vectors of any type
+
+// Experimental - template
+template<class TYPE>
+void DumpVector(const std::vector<TYPE> &data) {
+    // Dump out the returns for debugging
+    for (auto dataMember : data) {
+     std::cout << dataMember << "\n";
+    }
+}
+
+// Output vector of ints to the console
 void OutputData(std::vector<int>&);
+
 
 #endif //VECTOUT_HPP

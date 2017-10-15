@@ -3,5 +3,13 @@ project(Test3)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES main.cpp Fiblib.cpp)
+set(SOURCE_FILES main.cpp)
+
 add_executable(Test3 ${SOURCE_FILES})
+
+add_subdirectory (Fiblib)
+
+target_link_libraries(Test3 Fiblib)
+
+
+

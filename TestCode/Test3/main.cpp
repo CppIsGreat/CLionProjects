@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-#include "Fiblib.hpp"
+#include "Fiblib/Fiblib.hpp"
 
  // Output vector of ints to the console
 void OutputData(std::vector<int>& vectorData) {

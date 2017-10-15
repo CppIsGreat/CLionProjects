@@ -7,16 +7,16 @@
 *
 *  @brief Make file for the project
 *
-*  @section Make file for Fiblib.
+*  @section DESCRIPTION
 *
-*/
+*
 ]]
 
 cmake_minimum_required(VERSION 3.8)
-project(Fiblib)
+project(VectOut)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES Fiblib.cpp)
+set(SOURCE_FILES VectOut.cpp)
 
-add_library(Fiblib STATIC ${SOURCE_FILES})
+add_library(VectOut STATIC ${SOURCE_FILES})

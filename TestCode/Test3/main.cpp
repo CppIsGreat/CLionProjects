@@ -1,21 +1,21 @@
-// Determine the nth Fibonacci number
+/**
+ *  @file    main.cpp
+ *  @author  Neil Burman (nburma01)
+ *  @date    2017-10-15
+ *  @version 1.0
+ *
+ *  @brief   Print a series of n Fibonacci numbers
+ *
+ *  @section Print Fibonacci numbers using static
+ *  libraries.
+ *
+ */
 
+#include <iostream> // std::cin, std::cout
+#include <vector>   // std::vector
 
-#include <iostream>
-#include <vector>
-
-#include "Fiblib/Fiblib.hpp"
-
- // Output vector of ints to the console
-void OutputData(std::vector<int>& vectorData) {
-    for (auto dataItem : vectorData)
-    {
-        std::cout << dataItem << " ";
-    }
-
-    // Blank line
-    std::cout << "\n";
-}
+#include "Fiblib/Fiblib.hpp"        // fib
+#include "VectOut/VectOut.hpp"      // OutputData
 
 // Main program
 int main(){

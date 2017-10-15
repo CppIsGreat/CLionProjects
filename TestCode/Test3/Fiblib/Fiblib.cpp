@@ -1,11 +1,17 @@
-//
-// Created by Neil on 15/10/2017.
-//
+/**
+ *  @file    Fiblib.cpp
+ *  @author  Neil Burman (nburma01)
+ *  @date    2017-10-15
+ *  @version 1.0
+ *
+ *  @brief   Print a series of n Fibonacci numbers
+ *
+ *  @section Print Fibonacci numbers using static
+ *  libraries.
+ *
+ */
 
-// Determine the nth Fibonacci number
-
-#include <iostream>
-#include <vector>
+#include <vector>   // std::vector
 
 // Function to swap two integer values
 void Swap(int& int1, int& int2){

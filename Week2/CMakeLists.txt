@@ -7,5 +7,7 @@ add_subdirectory (Fizzbuzz1)
 add_subdirectory (Fizzbuzz2)
 add_subdirectory (Fizzbuzz3)
 add_subdirectory (Homework1)
+add_subdirectory (Homework2)
+add_subdirectory (Homework3)
 
 

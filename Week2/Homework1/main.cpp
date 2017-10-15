@@ -1,24 +1,25 @@
-// Determine the nth Fibonacci number
-
 #include <iostream>
 
-// Fibonacci sequence
-
-int Fib(int n)  {
-    if (n < 2) return n;
-
-    return (Fib(n - 2) + Fib(n - 1));
+// Remove the &
+std::string get_hello()
+{
+    std::string str = "Hello";
+    return (str);
 }
 
-// main program
+// This is probably not good
+void get_hello(std::string& str)
+{
+    str = "Hello";
+}
 
 int main() {
 
-    int fibNum {};
+    std::cout << get_hello() << std::endl;
 
-    std::cout << "Enter the nth Fibonacci sequence : ";
-    std::cin >> fibNum;
+    std::string test {};
+    get_hello(test);
 
-    std::cout << "Fibonacci number " << fibNum << " is " << Fib(fibNum) << "\n";
+    std::cout << test << std::endl;
 
 }
